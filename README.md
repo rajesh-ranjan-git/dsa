@@ -2,14 +2,14 @@
 
 ## Schedule
 
-001. 034 Pattern Printing for Beginners _ Logic Building with Loops
-    - [x] 1st November 2026 :: Pending
+001. 034 Pattern Printing for Beginners _ Logic Building with Loops  
+     - [x] 1st November 2026 :: Pending
 
-002. 035 Time & Space Complexity Explained _ Big O Notation
-    - [x] 2nd November 2026 :: Pending
+002. 035 Time & Space Complexity Explained _ Big O Notation  
+     - [x] 2nd November 2026 :: Pending
 
-003. 037 Maths for DSA – Part 1 _ Count Digits _ Number System Basics
-    - [x] 3rd November 2026 :: Pending
+003. 037 Maths for DSA – Part 1 _ Count Digits _ Number System Basics  
+     - [x] 3rd November 2026 :: Pending
 
 004. 038 Maths for DSA – Part 2 _ Primes, GCD, Sieve, Modular Arithmetic _ Interview
      [ ] 4th November 2026 :: Pending
