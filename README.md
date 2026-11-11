@@ -9,7 +9,7 @@
      [x] 2nd November 2026 :: Pending
 
 003. 037 Maths for DSA – Part 1 _ Count Digits _ Number System Basics
-     [x] 3rd November 2026 :: Pending
+     [ ] 3rd November 2026 :: Pending
 
 004. 038 Maths for DSA – Part 2 _ Primes, GCD, Sieve, Modular Arithmetic _ Interview
      [ ] 4th November 2026 :: Pending
