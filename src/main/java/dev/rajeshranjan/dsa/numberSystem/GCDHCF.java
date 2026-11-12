@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GCDHCF {
 
-    public static void getGCDHCF(int num1, int num2) {
+    public static void normalGCDHCF(int num1, int num2) {
         num1 = Math.abs(num1);
         num2 = Math.abs(num2);
 
@@ -31,7 +31,39 @@ public class GCDHCF {
             }
         }
 
-        System.out.println("GCD = " + ans);
+        System.out.println("GCD using normal method = " + ans);
+    }
+
+    public static int euclideanAlgorithm(int num1, int num2) {
+        num1 = Math.abs(num1);
+        num2 = Math.abs(num2);
+
+        if (num2 > num1) {
+            return euclideanAlgorithm(num2, num1);
+        }
+
+        if (num2 > 0) {
+            return euclideanAlgorithm(num1 - num2, num2);
+        }
+
+        return num1;
+    }
+
+    public static int betterEuclideanAlgorithm(int num1, int num2) {
+        num1 = Math.abs(num1);
+        num2 = Math.abs(num2);
+
+        if (num2 > num1) {
+            return betterEuclideanAlgorithm(num2, num1);
+        }
+
+        while (num2 > 0) {
+            int temp = num1 % num2;
+            num1 = num2;
+            num2 = temp;
+        }
+
+        return num1;
     }
 
     public static void main(String[] args) {
@@ -43,6 +75,10 @@ public class GCDHCF {
         System.out.print("Enter second number: ");
         int num2 = scan.nextInt();
 
-        getGCDHCF(num1, num2);
+        normalGCDHCF(num1, num2);
+
+        System.out.println("GCD using Euclidean Algorithm = " + euclideanAlgorithm(num1, num2));
+
+        System.out.println("GCD using better Euclidean Algorithm = " + betterEuclideanAlgorithm(num1, num2));
     }
 }
