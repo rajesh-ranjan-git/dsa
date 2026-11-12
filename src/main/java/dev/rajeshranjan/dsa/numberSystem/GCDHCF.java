@@ -3,7 +3,6 @@ package dev.rajeshranjan.dsa.numberSystem;
 import java.util.Scanner;
 
 public class GCDHCF {
-
     public static void normalGCDHCF(int num1, int num2) {
         num1 = Math.abs(num1);
         num2 = Math.abs(num2);
