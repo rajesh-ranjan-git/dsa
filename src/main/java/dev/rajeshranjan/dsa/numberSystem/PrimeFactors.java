@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class PrimeFactors {
-    private static void getAllPrimeFactors(int num) {
+    public static void getAllPrimeFactors(int num) {
         int originalNum = num;
         num = Math.abs(num);
 
@@ -30,7 +30,7 @@ public class PrimeFactors {
         System.out.println();
     }
 
-    private static void getAllUniquePrimeFactors(int num) {
+    public static void getAllUniquePrimeFactors(int num) {
         int originalNum = num;
         num = Math.abs(num);
 
@@ -55,7 +55,7 @@ public class PrimeFactors {
         System.out.println();
     }
 
-    private static void getSmallestPrimeFactor(int num) {
+    public static void getSmallestPrimeFactor(int num) {
         int originalNum = num;
         num = Math.abs(num);
 
@@ -71,7 +71,7 @@ public class PrimeFactors {
         System.out.println();
     }
 
-    private static void getAllSmallestPrimeFactorTillNum(int num) {
+    public static void getAllSmallestPrimeFactorTillNum(int num) {
         num = Math.abs(num);
 
         int[] prime = new int[num + 1];
