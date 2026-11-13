@@ -12,7 +12,7 @@
      - [x] 3rd November 2026 :: Completed
 
 004. 038 Maths for DSA – Part 2 _ Primes, GCD, Sieve, Modular Arithmetic _ Interview  
-     - [ ] 4th November 2026 :: Pending
+     - [x] 4th November 2026 :: Completed
 
 005. 039 Bit Manipulation Basics _ Binary, Bitwise Operators & Tricks  
      - [ ] 5th November 2026 :: Pending
