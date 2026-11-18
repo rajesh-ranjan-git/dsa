@@ -15,7 +15,7 @@
      - [x] 4th November 2026 :: Completed
 
 005. 039 Bit Manipulation Basics _ Binary, Bitwise Operators & Tricks  
-     - [ ] 5th November 2026 :: Pending
+     - [x] 5th November 2026 :: Completed
 
 006. 040 Bit Manipulation Tricks _ Set, Toggle, Count Bits  
      - [ ] 6th November 2026 :: Pending
